@@ -5,7 +5,7 @@ const S = {};
 const signIn = document.querySelector('.signin');
 class Chat 
 {
-	static Html = ['form_login', 'login', 'pass', 'notif', 'modal_wrap', 'close', 'form_create', 'username', 'message', 'list'] // Список всех необходимых HTML селекторов
+	static Html = ['form_login', 'login', 'pass', 'notif', 'modal_wrap', 'close', 'form_create', 'username', 'message', 'list'] 
 
 	static List = []
 

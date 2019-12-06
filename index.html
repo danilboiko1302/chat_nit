@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Chat App</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="favicon.ico" />
+
+</head>
+<body>
+
+	<header>
+		<div class="container">
+			<img src="img/logo.png" class="logo" alt="">
+			<div class="signin">
+				
+			</div>
+			
+		</div>
+	</header>
+
+	
+	<div class="list_mess">
+		<div class="container">
+			<div class="list">
+				<!-- Список повідомлень -->
+			</div>			
+			
+		</div>
+	</div>
+
+	<div class="modal_wrap">
+		<div class="modal">
+			<span class="close"></span>
+			<h2>Авторизація</h2>
+			<form class="form_login">
+				<p><strong>Ім'я:</strong></p>
+				<input type="text" class="inp login" placeholder="Введите имя">
+				<p><strong>Пароль:</strong></p>
+				<input type="password" class="inp pass" placeholder="Введите пароль">
+				<button class="btn btn_login">Увійти</button>
+			</form>
+			
+			<p class="notif"></p>
+
+		</div>
+	</div>
+<div class="create_mess">
+		<div class="container">
+			<hr>
+
+			<div class="form">
+				<h1>Нове повідомлення</h1>
+				<form action="" class="form_create">
+					<p><strong>Ім'я:</strong></p>
+					<input type="text" class="inp username" placeholder="Введите имя">
+					<p><strong>Повідомлення:</strong></p>
+					<textarea rows="8" class="inp message" placeholder="Введите сообщение"></textarea>
+					<br>
+					<button class="btn btn_add">Надіслати</button>
+				</form>
+			</div>
+			<hr>
+		</div>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+
+	
+</body>
+</html>

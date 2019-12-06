@@ -168,6 +168,8 @@ class Chat
 			})
 
 		}
+		let ff = document.getElementsByClassName("message")[0];
+		ff.value="";
 	}
 
 	static removeMessage(id)
